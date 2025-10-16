@@ -1,11 +1,12 @@
-import { motion, useScroll, useTransform } from 'motion/react';
+import { motion, useScroll, useTransform, useSpring } from 'motion/react';
 
 const ParallaxBg = () => {
     const {scrollYProgress} = useScroll();
-    const mountain3Y = useTransform(scrollYProgress, [0, 0.5], ["0", "70%"]);
-    const planetsX = useTransform(scrollYProgress, [0, 0.5], ["0", "-20%"]);
-    const mountain2Y = useTransform(scrollYProgress, [0, 0.5], ["0", "30%"]);
-    const mountain1Y = useTransform(scrollYProgress, [0, 0.5], ["0", "0%"]);
+    const x = useSpring(scrollYProgress, { damping: 50 });
+    const mountain3Y = useTransform(x, [0, 0.5], ["0", "70%"]);
+    const planetsX = useTransform(x, [0, 0.5], ["0", "-20%"]);
+    const mountain2Y = useTransform(x, [0, 0.5], ["0", "30%"]);
+    const mountain1Y = useTransform(x, [0, 0.5], ["0", "0%"]);
   return (
     <section className='absolute inset-0 bg-black/40'>
         <div className='relative h-screen overflow-y-hidden'>
