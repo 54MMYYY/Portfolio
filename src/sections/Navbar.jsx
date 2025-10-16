@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "motion/react"
 function Navigation(){
     return <ul className='nav-ul'>
         <li className='nav-li'>
@@ -32,13 +33,19 @@ const Navbar = () => {
                 </nav>
             </div>
         </div>
-        <div className='block overflow-hidden text-center sm:hidden'>
-            <nav className='pb-5'>
-                <Navigation/>
-            </nav>
-        </div>
+        {isOpen && (
+            <motion.div className='block overflow-hidden text-center sm:hidden' 
+            initial={{opacity: 0, x: 20}} 
+            animate={{opacity: 1, x: 0}} 
+            style={{maxHeight: "100vh"}} 
+            transition={{duration: 1}}>
+                <nav className='pb-5'>
+                    <Navigation/>
+                </nav>
+            </motion.div>
+        )}
     </div>
   );
-}
+};
 
 export default Navbar
