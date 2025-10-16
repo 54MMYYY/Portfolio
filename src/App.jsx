@@ -7,6 +7,11 @@ const App = () => {
     <div className="container mx-auto max-w-7xl">
       <Navbar />
       <Hero />
+      <section className="h-screen flex items-center justify-center" />
+      <section className="h-screen flex items-center justify-center" />
+      <section className="h-screen flex items-center justify-center" />
+      <section className="h-screen flex items-center justify-center" />
+      <section className="h-screen flex items-center justify-center" />
       {/* about */}
       {/* projects */}
       {/* experience */}
