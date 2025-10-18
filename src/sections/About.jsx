@@ -2,6 +2,8 @@ import React from 'react'
 import Card from '../components/Card';
 import { useRef } from 'react';
 import { Globe } from '../components/Globe';
+import CopyEmailButton from '../components/CopyEmailButton';
+import { FrameWorks } from '../components/FrameWorks';
 
 const About = () => {
   const grid2Container = useRef();
@@ -51,11 +53,19 @@ const About = () => {
         <div className='grid-special-color grid-4'>
             <div className='flex flex-col items-center justify-center gap-4 size-full'>
                 <p className='text-center headtext'>Do you want to start a project together?</p>
+                <CopyEmailButton />
             </div>
         </div>
         {/* Grid 5 */}
         <div className='grid-default-color grid-5'>
-
+            <div className='z-10 w-[50%]'>
+                <p className='headtext font-bold'>Tech Stack</p>
+                <p className='subtext'>I specialize in a variety of Languages, FrameWorks
+                and Tools that allow me to build robust and scalable applications.</p>
+            </div>
+            <div className='absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125'>
+                <FrameWorks />
+            </div>
         </div>
     </div>
   </section>
