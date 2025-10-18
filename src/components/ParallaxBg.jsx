@@ -54,4 +54,4 @@ const ParallaxBg = () => {
   )
 }
 
-export default ParallaxBg
+export default ParallaxBg;
