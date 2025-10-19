@@ -21,7 +21,7 @@ function Navigation(){
 const Navbar = () => {
         const[isOpen, setIsOpen] = useState(false);
     return(
-    <div className='fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40'>
+    <div className='fixed inset-x-0 z-50 w-full backdrop-blur-lg bg-primary/40'>
         <div className='mx-auto c-space max-w-7xl'>
             <div className='flex items-center justify-between py-2 sm:py-0'>
                 <a href='/'className='text-xl font_bold transition-colors text-neutral-400 hover:text-white'>
