@@ -11,7 +11,13 @@ function Navigation(){
             <a className='nav-link' href='#about'>About</a>
         </li>
         <li className='nav-li'>
-            <a className='nav-link' href='#work'>Work</a>
+            <a className='nav-link' href='#projects'>Projects</a>
+        </li>
+        <li className='nav-li'>
+            <a className='nav-link' href='#experiences'>Experience</a>
+        </li>
+        <li className='nav-li'>
+            <a className='nav-link' href='#references'>References</a>
         </li>
         <li className='nav-li'>
             <a className='nav-link' href='#contact'>Contact</a>
