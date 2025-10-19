@@ -6,6 +6,7 @@ import Projects from './sections/Projects';
 import Experiences from './sections/Experiences';
 import References from './sections/References';
 import Contact from './sections/Contact';
+import Footer from './sections/Footer';
 
 const App = () => {
   return (
@@ -17,8 +18,7 @@ const App = () => {
       <Experiences />
       <References />
       <Contact />
-      {/* footer */}
-      <section className="min-h-screen" />
+      <Footer />
     </div>
   );
 };
