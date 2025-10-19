@@ -12,7 +12,9 @@
   "dependencies": {
     "@react-three/drei": "^10.7.6",
     "@react-three/fiber": "^9.4.0",
+    "@tabler/icons-react": "^3.35.0",
     "@tailwindcss/vite": "^4.1.14",
+    "clsx": "^2.1.1",
     "cobe": "^0.6.5",
     "framer-motion": "^12.23.24",
     "maath": "^0.10.8",
