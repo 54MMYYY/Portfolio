@@ -12,7 +12,7 @@ const ReviewCard = ({img, name, username, body}) => {
         "relative h-full border-gray-50/[.1] w-64 cursor-pointer overflow-hidden rounded-xl border p-4 bg-gradient-to-r bg-indigo to-store hover:bg-royal hover-animation"
       )}
     >
-      <div id="references" className="flex flex-row items-center gap-2">
+      <div className="flex flex-row items-center gap-2">
         <img className="rounded-full bg-white/10" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium text-white">
@@ -31,12 +31,12 @@ export default function References() {
     <div className="items-start mt-25 md:mt-35 c-space">
         <h2 className="text-heading">My References</h2>
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden mt-12">
-        <Marquee pauseOnHover className="[--duration:20s]">
+        <Marquee pauseOnHover className="[--duration:40s]">
             {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
             ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s]">
+        <Marquee reverse pauseOnHover className="[--duration:40s]">
             {secondRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
             ))}

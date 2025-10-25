@@ -9,10 +9,9 @@ export const Timeline = ({ data }) => {
 
   useEffect(() => {
     if (ref.current) {
-      const rect = ref.current.getBoundingClientRect();
-      setHeight(rect.height);
+      setHeight(ref.current.scrollHeight);
     }
-  }, [ref]);
+  }, [data]);
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -48,8 +47,7 @@ export const Timeline = ({ data }) => {
                 <h3>{item.job}</h3>
               </div>
               {item.contents.map((content, index) => (
-                <p className="mb-3 font-normal text-neutral-400" key={index}>
-                  {content}
+                <p className="mb-3 font-normal text-neutral-400" key={index} dangerouslySetInnerHTML={{ __html: content }}> 
                 </p>
               ))}
             </div>

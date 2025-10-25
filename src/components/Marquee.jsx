@@ -7,6 +7,7 @@ export default function Marquee({
   children,
   vertical = false,
   repeat = 4,
+  duration = 20,
   ...props
 }) {
   return (
