@@ -1,4 +1,4 @@
-const BASE_PATH = import.meta.env.DEV ? './' : import.meta.env.BASE_URL;
+const BASE_PATH = import.meta.env.DEV ? './' : `${import.meta.env.BASE_URL}/`;
 export const myProjects = [
     {
       id: 1,
@@ -27,7 +27,7 @@ export const myProjects = [
         {
           id: 3,
           name: "JWT",
-          path: `${BASE_PATH}/assets/logos/efcore.png`,
+          path: `${BASE_PATH}assets/logos/efcore.png`,
         },
         {
           id: 4,
