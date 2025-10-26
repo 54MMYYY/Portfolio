@@ -1,3 +1,4 @@
+const PUBLIC_BASE_URL = import.meta.env.BASE_URL;
 export const myProjects = [
     {
       id: 1,
@@ -12,27 +13,27 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: "/assets/projects/accessories.jpg",
+      image: PUBLIC_BASE_URL + "/assets/projects/accessories.jpg",
       tags: [
         {
           id: 1,
           name: "C#",
-          path: "/assets/logos/csharp.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/csharp.svg",
         },
         {
           id: 2,
           name: ".Net",
-          path: "/assets/logos/dotnet.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/dotnet.svg",
         },
         {
           id: 3,
           name: "Ef Core",
-          path: "/assets/logos/efcore.png",
+          path: PUBLIC_BASE_URL + "/assets/logos/efcore.png",
         },
         {
           id: 4,
           name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/tailwindcss.svg",
         },
       ],
     },
@@ -49,27 +50,27 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: "/assets/projects/auth-system.jpg",
+      image: PUBLIC_BASE_URL + "/assets/projects/auth-system.jpg",
       tags: [
         {
           id: 1,
           name: "Auth0",
-          path: "/assets/logos/auth0.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/auth0.svg",
         },
         {
           id: 2,
           name: "React",
-          path: "/assets/logos/react.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/react.svg",
         },
         {
           id: 3,
           name: "SQLite",
-          path: "/assets/logos/sqlite.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/sqlite.svg",
         },
         {
           id: 4,
           name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/tailwindcss.svg",
         },
       ],
     },
@@ -86,27 +87,27 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: "/assets/projects/blazor-app.jpg",
+      image: PUBLIC_BASE_URL + "/assets/projects/blazor-app.jpg",
       tags: [
         {
           id: 1,
           name: "Blazor",
-          path: "/assets/logos/blazor.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/blazor.svg",
         },
         {
           id: 2,
           name: ".NET Core",
-          path: "/assets/logos/dotnetcore.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/dotnetcore.svg",
         },
         {
           id: 3,
           name: "SQLite",
-          path: "/assets/logos/sqlite.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/sqlite.svg",
         },
         {
           id: 4,
           name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/tailwindcss.svg",
         },
       ],
     },
@@ -123,27 +124,27 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: "/assets/projects/game-engine.jpg",
+      image: PUBLIC_BASE_URL + "/assets/projects/game-engine.jpg",
       tags: [
         {
           id: 1,
           name: "C++",
-          path: "/assets/logos/cplusplus.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/cplusplus.svg",
         },
         {
           id: 2,
           name: "C#",
-          path: "/assets/logos/csharp.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/csharp.svg",
         },
         {
           id: 3,
           name: "Git",
-          path: "/assets/logos/git.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/git.svg",
         },
         {
           id: 4,
           name: "Microsoft",
-          path: "/assets/logos/microsoft.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/microsoft.svg",
         },
       ],
     },
@@ -160,27 +161,27 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: "/assets/projects/wordpress-theme.jpg",
+      image: PUBLIC_BASE_URL + "/assets/projects/wordpress-theme.jpg",
       tags: [
         {
           id: 1,
           name: "WordPress",
-          path: "/assets/logos/wordpress.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/wordpress.svg",
         },
         {
           id: 2,
           name: "HTML5",
-          path: "/assets/logos/html5.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/html5.svg",
         },
         {
           id: 3,
           name: "CSS3",
-          path: "/assets/logos/css3.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/css3.svg",
         },
         {
           id: 4,
           name: "Vite.js",
-          path: "/assets/logos/vitejs.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/vitejs.svg",
         },
       ],
     },
@@ -197,27 +198,27 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: "/assets/projects/elearning.jpg",
+      image: PUBLIC_BASE_URL + "/assets/projects/elearning.jpg",
       tags: [
         {
           id: 1,
           name: "Blazor",
-          path: "/assets/logos/blazor.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/blazor.svg",
         },
         {
           id: 2,
           name: "Azure",
-          path: "/assets/logos/azure.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/azure.svg",
         },
         {
           id: 3,
           name: "Stripe",
-          path: "/assets/logos/stripe.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/stripe.svg",
         },
         {
           id: 4,
           name: "TailwindCSS",
-          path: "/assets/logos/tailwindcss.svg",
+          path: PUBLIC_BASE_URL + "/assets/logos/tailwindcss.svg",
         },
       ],
     },
@@ -227,17 +228,17 @@ export const myProjects = [
     {
       name: "WhatsApp",
       href: "https://wa.me/971501401675",
-      icon: "/assets/socials/whatsApp.svg",
+      icon: PUBLIC_BASE_URL + "/assets/socials/whatsApp.svg",
     },
     {
       name: "Linkedin",
       href: "https://www.linkedin.com/in/samsonshajigeorge/",
-      icon: "/assets/socials/linkedIn.svg",
+      icon: PUBLIC_BASE_URL + "/assets/socials/linkedIn.svg",
     },
     {
       name: "Instagram",
       href: "https://www.instagram.com/54mmyyy/",
-      icon: "/assets/socials/instagram.svg",
+      icon: PUBLIC_BASE_URL + "/assets/socials/instagram.svg",
     },
   ];
   
