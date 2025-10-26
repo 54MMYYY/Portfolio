@@ -88,7 +88,7 @@ export const myProjects = [
         {
           id: 1,
           name: "",
-          path: `${BASE_PATH}assets/logos/csharp.svg`,
+          path: ``,
         },
         {
           id: 2,
@@ -118,7 +118,7 @@ export const myProjects = [
         "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
         "Connected to a secure SQLite database for user data storage.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/1swcATCG-98H2INGC4s5Zy2zkBrWhP2FT/view?usp=sharing",
       logo: "",
       image: `${BASE_PATH}assets/certificates/ai900.png`,
       tags: [
@@ -155,7 +155,7 @@ export const myProjects = [
         "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
         "Connected to a secure SQLite database for user data storage.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/1XVJwltXv5p6fQduxgTEp2bMSrX5ua2yX/view?usp=sharing",
       logo: "",
       image: `${BASE_PATH}assets/certificates/nptelpython.png`,
       tags: [
@@ -192,7 +192,7 @@ export const myProjects = [
         "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
         "Connected to a secure SQLite database for user data storage.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/1QbDnCT478VvBcacpB2nnkPqX7luhlOi7/view?usp=sharing",
       logo: "",
       image: `${BASE_PATH}assets/certificates/digitalengineering.png`,
       tags: [
@@ -229,7 +229,7 @@ export const myProjects = [
         "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
         "Connected to a secure SQLite database for user data storage.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/1ZC-MQ8q-Cb7ihWdITrArZy1GLEkF4BJF/view?usp=sharing",
       logo: "",
       image: `${BASE_PATH}assets/certificates/aws.png`,
       tags: [
@@ -266,7 +266,7 @@ export const myProjects = [
         "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
         "Connected to a secure SQLite database for user data storage.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/1vIRqoLnB4aGNusaOZy4MOYCcZV7atotf/view?usp=sharing",
       logo: "",
       image: `${BASE_PATH}assets/certificates/cloudcomputing.png`,
       tags: [
@@ -303,7 +303,7 @@ export const myProjects = [
         "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
         "Connected to a secure SQLite database for user data storage.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/1D4gJAkLNvyAfjY7XDqSmFUZsE3f4dQri/view?usp=sharing",
       logo: "",
       image: `${BASE_PATH}assets/certificates/hadoopspark.png`,
       tags: [
@@ -340,7 +340,7 @@ export const myProjects = [
         "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
         "Connected to a secure SQLite database for user data storage.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/11GkpBrFoJwb-XIaYGRRinVJer2XOgXgw/view?usp=sharing",
       logo: "",
       image: `${BASE_PATH}assets/certificates/dsausingc.jpg`,
       tags: [
