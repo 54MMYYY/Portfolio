@@ -1,7 +1,8 @@
 import { motion, useScroll, useTransform, useSpring } from 'motion/react';
 
+const PUBLIC_BASE_URL = import.meta.env.BASE_URL;
+
 const ParallaxBg = () => {
-    const PUBLIC_BASE_URL = import.meta.env.BASE_URL;
     const {scrollYProgress} = useScroll();
     const x = useSpring(scrollYProgress, { damping: 50 });
     const mountain3Y = useTransform(x, [0, 0.5], ["0", "70%"]);

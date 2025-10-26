@@ -11,8 +11,9 @@ import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { Canvas, useFrame } from '@react-three/fiber'; 
 import { useGLTF, useAnimations, Environment, OrbitControls } from '@react-three/drei';
 
+const PUBLIC_BASE_URL = import.meta.env.BASE_URL;
+
 export function Astronaut(props) {
-  const PUBLIC_BASE_URL = import.meta.env.BASE_URL;
   const group = useRef()
   const { nodes, materials, animations } = useGLTF(PUBLIC_BASE_URL + 'models/tenhun_falling_spaceman_fanart.glb')
   const { actions } = useAnimations(animations, group)
