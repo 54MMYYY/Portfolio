@@ -1,4 +1,4 @@
-const BASE_PATH = import.meta.env.DEV ? './' : import.meta.env.BASE_URL;
+const BASE_PATH = import.meta.env.DEV ? './' : '/';
 export const myProjects = [
     {
       id: 1,
