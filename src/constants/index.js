@@ -1,4 +1,4 @@
-const BASE_PATH = import.meta.env.DEV ? './' : '/';
+const BASE_PATH = import.meta.env.DEV ? './' : '';
 export const myProjects = [
     {
       id: 1,
@@ -87,23 +87,23 @@ export const myProjects = [
       tags: [
         {
           id: 1,
-          name: "C#",
+          name: "",
           path: `${BASE_PATH}assets/logos/csharp.svg`,
         },
         {
           id: 2,
-          name: ".Net",
-          path: `${BASE_PATH}assets/logos/dotnet.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 3,
-          name: "Ef Core",
-          path: `${BASE_PATH}assets/logos/efcore.png`,
+          name: "",
+          path: ``,
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          name: "",
+          path: ``,
         },
       ],
     },
@@ -124,23 +124,23 @@ export const myProjects = [
       tags: [
         {
           id: 1,
-          name: "Auth0",
-          path: `${BASE_PATH}assets/logos/auth0.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 2,
-          name: "React",
-          path: `${BASE_PATH}assets/logos/react.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 3,
-          name: "SQLite",
-          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          name: "",
+          path: ``,
         },
       ],
     },
@@ -161,23 +161,23 @@ export const myProjects = [
       tags: [
         {
           id: 1,
-          name: "Auth0",
-          path: `${BASE_PATH}assets/logos/auth0.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 2,
-          name: "React",
-          path: `${BASE_PATH}assets/logos/react.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 3,
-          name: "SQLite",
-          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          name: "",
+          path: ``,
         },
       ],
     },
@@ -198,23 +198,23 @@ export const myProjects = [
       tags: [
         {
           id: 1,
-          name: "Auth0",
-          path: `${BASE_PATH}assets/logos/auth0.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 2,
-          name: "React",
-          path: `${BASE_PATH}assets/logos/react.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 3,
-          name: "SQLite",
-          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          name: "",
+          path: ``,
         },
       ],
     },
@@ -235,23 +235,23 @@ export const myProjects = [
       tags: [
         {
           id: 1,
-          name: "Auth0",
-          path: `${BASE_PATH}assets/logos/auth0.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 2,
-          name: "React",
-          path: `${BASE_PATH}assets/logos/react.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 3,
-          name: "SQLite",
-          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          name: "",
+          path: ``,
         },
       ],
     },
@@ -272,23 +272,23 @@ export const myProjects = [
       tags: [
         {
           id: 1,
-          name: "Auth0",
-          path: `${BASE_PATH}assets/logos/auth0.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 2,
-          name: "React",
-          path: `${BASE_PATH}assets/logos/react.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 3,
-          name: "SQLite",
-          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          name: "",
+          path: ``,
         },
       ],
     },
@@ -309,23 +309,23 @@ export const myProjects = [
       tags: [
         {
           id: 1,
-          name: "Auth0",
-          path: `${BASE_PATH}assets/logos/auth0.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 2,
-          name: "React",
-          path: `${BASE_PATH}assets/logos/react.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 3,
-          name: "SQLite",
-          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          name: "",
+          path: ``,
         },
       ],
     },
@@ -346,23 +346,23 @@ export const myProjects = [
       tags: [
         {
           id: 1,
-          name: "Auth0",
-          path: `${BASE_PATH}assets/logos/auth0.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 2,
-          name: "React",
-          path: `${BASE_PATH}assets/logos/react.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 3,
-          name: "SQLite",
-          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+          name: "",
+          path: ``,
         },
         {
           id: 4,
-          name: "TailwindCSS",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          name: "",
+          path: ``,
         },
       ],
     },
@@ -372,17 +372,17 @@ export const myProjects = [
     {
       name: "WhatsApp",
       href: "https://wa.me/971501401675",
-      icon: `${BASE_PATH}assets/socials/whatsApp.svg`,
+      icon: `${BASE_PATH}/assets/socials/whatsApp.svg`,
     },
     {
       name: "Linkedin",
       href: "https://www.linkedin.com/in/samsonshajigeorge/",
-      icon: `${BASE_PATH}assets/socials/linkedIn.svg`,
+      icon: `${BASE_PATH}/assets/socials/linkedIn.svg`,
     },
     {
       name: "Instagram",
       href: "https://www.instagram.com/54mmyyy/",
-      icon: `${BASE_PATH}assets/socials/instagram.svg`,
+      icon: `${BASE_PATH}/assets/socials/instagram.svg`,
     },
   ];
   
