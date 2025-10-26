@@ -1,8 +1,78 @@
-const PUBLIC_BASE_URL = import.meta.env.BASE_URL;
+const BASE_PATH = import.meta.env.DEV ? './' : import.meta.env.BASE_URL;
 export const myProjects = [
     {
       id: 1,
-      title: "E-commerce Platform",
+      title: "Analytics of Scanned Prescription and Notes",
+      description:
+        "Engineered a full-stack MERN application for prescription analysis, demonstrating proficiency with modern web platforms and technologies.",
+      subDescription: [
+        "Integrated OCR and NLP techniques (tokenization/extraction) to process scanned data, achieving an 88% accuracy for printed prescriptions.",
+        "Implemented a secure JWT authentication system and utilized a large language model (LLM/ChatGPTbased) to derive medical analytics (symptoms, remedies).",
+        "Collaborated effectively with a team to ensure adherence to best development practices and projectdeadlines.",
+      ],
+      href: "",
+      logo: "",
+      image: `${BASE_PATH}assets/projects/accessories.jpg`,
+      tags: [
+        {
+          id: 1,
+          name: "OCR",
+          path: `${BASE_PATH}assets/logos/csharp.svg`,
+        },
+        {
+          id: 2,
+          name: "NLP",
+          path: `${BASE_PATH}assets/logos/dotnet.svg`,
+        },
+        {
+          id: 3,
+          name: "JWT",
+          path: `${BASE_PATH}/assets/logos/efcore.png`,
+        },
+        {
+          id: 4,
+          name: "MERN",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+        },
+      ],
+    },
+    {
+      id: 2,
+      title: "Age and Gender Detection using OpenCV",
+      description:
+        "Developed a real-time computer vision system in Python using OpenCV to determine the age and gender of aperson from a camera feed.",
+      subDescription: [
+        "Utilized pre-trained Caffe models for high-speed, accurate detection, showcasing ability to implement and optimize advanced machine learning concepts.",
+        "Executed the project independently, applying strong analytical thinking and problem-solving abilities to manage model integration and the data pipeline.",
+        "Demonstrated foundational knowledge of image processing and algorithmic efficiency in a solo capacity, reflecting a self-motivated approach to new technologies",
+      ],
+      href: "",
+      logo: "",
+      image: `${BASE_PATH}assets/projects/auth-system.jpg`,
+      tags: [
+        {
+          id: 1,
+          name: "OpenCV",
+          path: `${BASE_PATH}assets/logos/auth0.svg`,
+        },
+        {
+          id: 2,
+          name: "Caffe models",
+          path: `${BASE_PATH}assets/logos/react.svg`,
+        },
+        {
+          id: 3,
+          name: "Python",
+          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+        },
+      ],
+    },
+  ];
+  
+  export const myCertifications = [
+    {
+      id: 1,
+      title: "Microsoft Certified: Azure Fundamentals (AZ-900), Reva University",
       description:
         "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
       subDescription: [
@@ -11,35 +81,35 @@ export const myProjects = [
         "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
         "Added payment systems, localization, and product filtering for functionality improvements.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/1s-Dlosfgh4OglEIb5uWxRLzOBFUmnxlR/view?usp=sharing",
       logo: "",
-      image: PUBLIC_BASE_URL + "/assets/projects/accessories.jpg",
+      image: `${BASE_PATH}assets/certificates/az900.png`,
       tags: [
         {
           id: 1,
           name: "C#",
-          path: PUBLIC_BASE_URL + "/assets/logos/csharp.svg",
+          path: `${BASE_PATH}assets/logos/csharp.svg`,
         },
         {
           id: 2,
           name: ".Net",
-          path: PUBLIC_BASE_URL + "/assets/logos/dotnet.svg",
+          path: `${BASE_PATH}assets/logos/dotnet.svg`,
         },
         {
           id: 3,
           name: "Ef Core",
-          path: PUBLIC_BASE_URL + "/assets/logos/efcore.png",
+          path: `${BASE_PATH}assets/logos/efcore.png`,
         },
         {
           id: 4,
           name: "TailwindCSS",
-          path: PUBLIC_BASE_URL + "/assets/logos/tailwindcss.svg",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
         },
       ],
     },
     {
       id: 2,
-      title: "Authentication & Authorization System",
+      title: "Microsoft Certified: Azure AI Fundamentals (AI-900), Reva University",
       description:
         "A secure authentication and authorization system using Auth0 for seamless user management.",
       subDescription: [
@@ -50,195 +120,269 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: PUBLIC_BASE_URL + "/assets/projects/auth-system.jpg",
+      image: `${BASE_PATH}assets/certificates/ai900.png`,
       tags: [
         {
           id: 1,
           name: "Auth0",
-          path: PUBLIC_BASE_URL + "/assets/logos/auth0.svg",
+          path: `${BASE_PATH}assets/logos/auth0.svg`,
         },
         {
           id: 2,
           name: "React",
-          path: PUBLIC_BASE_URL + "/assets/logos/react.svg",
+          path: `${BASE_PATH}assets/logos/react.svg`,
         },
         {
           id: 3,
           name: "SQLite",
-          path: PUBLIC_BASE_URL + "/assets/logos/sqlite.svg",
+          path: `${BASE_PATH}assets/logos/sqlite.svg`,
         },
         {
           id: 4,
           name: "TailwindCSS",
-          path: PUBLIC_BASE_URL + "/assets/logos/tailwindcss.svg",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
         },
       ],
     },
     {
       id: 3,
-      title: "Blazor Web App",
+      title: "Data Analytics Using Python, IIT Roorkee | NPTEL",
       description:
-        "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+        "A secure authentication and authorization system using Auth0 for seamless user management.",
       subDescription: [
-        "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-        "Implemented API interactions using .NET Core for a robust backend.",
-        "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-        "Integrated SQLite for efficient client-side database storage.",
+        "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+        "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+        "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
+        "Connected to a secure SQLite database for user data storage.",
       ],
       href: "",
       logo: "",
-      image: PUBLIC_BASE_URL + "/assets/projects/blazor-app.jpg",
+      image: `${BASE_PATH}assets/certificates/nptelpython.png`,
       tags: [
         {
           id: 1,
-          name: "Blazor",
-          path: PUBLIC_BASE_URL + "/assets/logos/blazor.svg",
+          name: "Auth0",
+          path: `${BASE_PATH}assets/logos/auth0.svg`,
         },
         {
           id: 2,
-          name: ".NET Core",
-          path: PUBLIC_BASE_URL + "/assets/logos/dotnetcore.svg",
+          name: "React",
+          path: `${BASE_PATH}assets/logos/react.svg`,
         },
         {
           id: 3,
           name: "SQLite",
-          path: PUBLIC_BASE_URL + "/assets/logos/sqlite.svg",
+          path: `${BASE_PATH}assets/logos/sqlite.svg`,
         },
         {
           id: 4,
           name: "TailwindCSS",
-          path: PUBLIC_BASE_URL + "/assets/logos/tailwindcss.svg",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
         },
       ],
     },
     {
       id: 4,
-      title: "C++ Game Engine",
+      title: "Digital Engineering | NASSCOM FutureSkills Prime",
       description:
-        "A lightweight C++ game engine designed for 2D and 3D game development.",
+        "A secure authentication and authorization system using Auth0 for seamless user management.",
       subDescription: [
-        "Built a powerful rendering engine using OpenGL and C++.",
-        "Developed a physics engine with collision detection and particle effects.",
-        "Implemented a scripting system for easy game customization.",
-        "Optimized performance with multi-threading and efficient memory management.",
+        "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+        "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+        "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
+        "Connected to a secure SQLite database for user data storage.",
       ],
       href: "",
       logo: "",
-      image: PUBLIC_BASE_URL + "/assets/projects/game-engine.jpg",
+      image: `${BASE_PATH}assets/certificates/digitalengineering.png`,
       tags: [
         {
           id: 1,
-          name: "C++",
-          path: PUBLIC_BASE_URL + "/assets/logos/cplusplus.svg",
+          name: "Auth0",
+          path: `${BASE_PATH}assets/logos/auth0.svg`,
         },
         {
           id: 2,
-          name: "C#",
-          path: PUBLIC_BASE_URL + "/assets/logos/csharp.svg",
+          name: "React",
+          path: `${BASE_PATH}assets/logos/react.svg`,
         },
         {
           id: 3,
-          name: "Git",
-          path: PUBLIC_BASE_URL + "/assets/logos/git.svg",
+          name: "SQLite",
+          path: `${BASE_PATH}assets/logos/sqlite.svg`,
         },
         {
           id: 4,
-          name: "Microsoft",
-          path: PUBLIC_BASE_URL + "/assets/logos/microsoft.svg",
+          name: "TailwindCSS",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
         },
       ],
     },
     {
       id: 5,
-      title: "WordPress Custom Theme",
+      title: "AWS For Beginners | Simplilearn",
       description:
-        "A fully customizable WordPress theme optimized for performance and SEO.",
+        "A secure authentication and authorization system using Auth0 for seamless user management.",
       subDescription: [
-        "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-        "Integrated Tailwind CSS for modern styling and UI enhancements.",
-        "Optimized SEO and page speed using Vite.js for fast builds.",
-        "Implemented custom widgets and plugin compatibility for extended functionality.",
+        "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+        "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+        "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
+        "Connected to a secure SQLite database for user data storage.",
       ],
       href: "",
       logo: "",
-      image: PUBLIC_BASE_URL + "/assets/projects/wordpress-theme.jpg",
+      image: `${BASE_PATH}assets/certificates/aws.png`,
       tags: [
         {
           id: 1,
-          name: "WordPress",
-          path: PUBLIC_BASE_URL + "/assets/logos/wordpress.svg",
+          name: "Auth0",
+          path: `${BASE_PATH}assets/logos/auth0.svg`,
         },
         {
           id: 2,
-          name: "HTML5",
-          path: PUBLIC_BASE_URL + "/assets/logos/html5.svg",
+          name: "React",
+          path: `${BASE_PATH}assets/logos/react.svg`,
         },
         {
           id: 3,
-          name: "CSS3",
-          path: PUBLIC_BASE_URL + "/assets/logos/css3.svg",
+          name: "SQLite",
+          path: `${BASE_PATH}assets/logos/sqlite.svg`,
         },
         {
           id: 4,
-          name: "Vite.js",
-          path: PUBLIC_BASE_URL + "/assets/logos/vitejs.svg",
+          name: "TailwindCSS",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
         },
       ],
     },
     {
       id: 6,
-      title: "Online Learning Platform",
+      title: "Introduction to Cloud Computing | Simplilearn",
       description:
-        "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+        "A secure authentication and authorization system using Auth0 for seamless user management.",
       subDescription: [
-        "Built using Blazor WebAssembly for a seamless SPA experience.",
-        "Implemented video streaming with Azure Media Services.",
-        "Added a quiz system with dynamic question generation and real-time grading.",
-        "Integrated Stripe API for secure payment processing.",
+        "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+        "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+        "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
+        "Connected to a secure SQLite database for user data storage.",
       ],
       href: "",
       logo: "",
-      image: PUBLIC_BASE_URL + "/assets/projects/elearning.jpg",
+      image: `${BASE_PATH}assets/certificates/cloudcomputing.png`,
       tags: [
         {
           id: 1,
-          name: "Blazor",
-          path: PUBLIC_BASE_URL + "/assets/logos/blazor.svg",
+          name: "Auth0",
+          path: `${BASE_PATH}assets/logos/auth0.svg`,
         },
         {
           id: 2,
-          name: "Azure",
-          path: PUBLIC_BASE_URL + "/assets/logos/azure.svg",
+          name: "React",
+          path: `${BASE_PATH}assets/logos/react.svg`,
         },
         {
           id: 3,
-          name: "Stripe",
-          path: PUBLIC_BASE_URL + "/assets/logos/stripe.svg",
+          name: "SQLite",
+          path: `${BASE_PATH}assets/logos/sqlite.svg`,
         },
         {
           id: 4,
           name: "TailwindCSS",
-          path: PUBLIC_BASE_URL + "/assets/logos/tailwindcss.svg",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+        },
+      ],
+    },
+    {
+      id: 7,
+      title: "Big Data Hadoop and Spark Developer Training | Simplilearn",
+      description:
+        "A secure authentication and authorization system using Auth0 for seamless user management.",
+      subDescription: [
+        "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+        "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+        "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
+        "Connected to a secure SQLite database for user data storage.",
+      ],
+      href: "",
+      logo: "",
+      image: `${BASE_PATH}assets/certificates/hadoopspark.png`,
+      tags: [
+        {
+          id: 1,
+          name: "Auth0",
+          path: `${BASE_PATH}assets/logos/auth0.svg`,
+        },
+        {
+          id: 2,
+          name: "React",
+          path: `${BASE_PATH}assets/logos/react.svg`,
+        },
+        {
+          id: 3,
+          name: "SQLite",
+          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+        },
+        {
+          id: 4,
+          name: "TailwindCSS",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+        },
+      ],
+    },
+    {
+      id: 8,
+      title: "Data Structures Using C | 10Seconds , Reva University",
+      description:
+        "A secure authentication and authorization system using Auth0 for seamless user management.",
+      subDescription: [
+        "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
+        "Implemented role-based access control (RBAC) for fine-grained user permissions.",
+        "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
+        "Connected to a secure SQLite database for user data storage.",
+      ],
+      href: "",
+      logo: "",
+      image: `${BASE_PATH}assets/certificates/dsausingc.jpg`,
+      tags: [
+        {
+          id: 1,
+          name: "Auth0",
+          path: `${BASE_PATH}assets/logos/auth0.svg`,
+        },
+        {
+          id: 2,
+          name: "React",
+          path: `${BASE_PATH}assets/logos/react.svg`,
+        },
+        {
+          id: 3,
+          name: "SQLite",
+          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+        },
+        {
+          id: 4,
+          name: "TailwindCSS",
+          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
         },
       ],
     },
   ];
-  
+
   export const mySocials = [
     {
       name: "WhatsApp",
       href: "https://wa.me/971501401675",
-      icon: PUBLIC_BASE_URL + "/assets/socials/whatsApp.svg",
+      icon: `${BASE_PATH}assets/socials/whatsApp.svg`,
     },
     {
       name: "Linkedin",
       href: "https://www.linkedin.com/in/samsonshajigeorge/",
-      icon: PUBLIC_BASE_URL + "/assets/socials/linkedIn.svg",
+      icon: `${BASE_PATH}assets/socials/linkedIn.svg`,
     },
     {
       name: "Instagram",
       href: "https://www.instagram.com/54mmyyy/",
-      icon: PUBLIC_BASE_URL + "/assets/socials/instagram.svg",
+      icon: `${BASE_PATH}assets/socials/instagram.svg`,
     },
   ];
   
@@ -281,7 +425,7 @@ export const myProjects = [
       job: "Class 10",
       date: "2007-2019",
       contents: [
-        "Completed schooling from KG1 to Grade 10 under the CBSE curriculum at The Indian High School, Dubai.",
+        "Completed schooling from KG1 to Grade 10 under the CBSE curriculum.",
         "Built a strong academic foundation and developed essential skills in communication, teamwork, and problem-solving during formative years.",
       ],
     },
@@ -291,90 +435,90 @@ export const myProjects = [
       name: "Sunanth Vikram",
       username: "@AlphaData",
       body: "During his internship at Alpha Data, I was thoroughly impressed by his quick learning and ability to contribute effectively to our team.",
-      img: PUBLIC_BASE_URL + "faculty/vikram.jpeg",
+      img: `${BASE_PATH}faculty/vikram.jpeg`,
     },
     {
       name: "Prof. Nikhil S Tengli ",
       username: "Reva University",
       body: "He was an outstanding student in my AI course, consistently demonstrating a deep grasp of complex concepts and exceptional dedication.",
-      img: PUBLIC_BASE_URL + "faculty/nikhil.jpeg",
+      img: `${BASE_PATH}faculty/nikhil.jpeg`,
     },
     {
       name: "Prof. Akram Pasha",
       username: "Reva University",
       body: "This student consistently brings enthusiasm and insightful questions to the classroom, making for a truly engaging learning environment.",
-      img: PUBLIC_BASE_URL + "faculty/akram.jpeg",
+      img: `${BASE_PATH}faculty/akram.jpeg`,
     },
     {
       name: "Dr. Sanju Pillai",
       username: "Reva University",
       body: "I remember him as a highly proficient student in Computer Organization and Architecture, always excelling in technical assignments.",
-      img: PUBLIC_BASE_URL + "faculty/sanju.jpeg",
+      img: `${BASE_PATH}faculty/sanju.jpeg`,
     },
     {
       name: "Prof. Chaitra M H",
       username: "Reva University",
       body: "He demonstrates a remarkable talent for machine learning, tackling complex projects with both creativity and analytical rigor.",
-      img: PUBLIC_BASE_URL + "faculty/chaitra.webp",
+      img: `${BASE_PATH}faculty/chaitra.webp`,
     },
     {
       name: "Prof. Sailaja Thota ",
       username: "Reva University",
       body: "A dedicated and proactive student who shows great promise in navigating challenging academic requirements.",
-      img: PUBLIC_BASE_URL + "faculty/sailaja.webp",
+      img: `${BASE_PATH}faculty/sailaja.webp`,
     },
     {
       name: "Dr. Farooque Azam",
       username: "Reva University",
       body: "His work in applying machine learning models was particularly noteworthy for its efficiency and clear presentation of results.",
-      img: PUBLIC_BASE_URL + "faculty/farooque.jpeg",
+      img: `${BASE_PATH}faculty/farooque.jpeg`,
     },
     {
       name: "Dr. Selvan C",
       username: "Reva University",
       body: "A highly motivated individual whose commitment to learning and growth in his field is evident in all his contributions.",
-      img: PUBLIC_BASE_URL + "faculty/selvan.jpg",
+      img: `${BASE_PATH}faculty/selvan.jpg`,
     },
     {
       name: "Dr. Anilkumar Ambore",
       username: "Reva University",
       body: "He quickly mastered modern web technologies, displaying the skillset of a professional developer during my course.",
-      img: PUBLIC_BASE_URL + "faculty/anilkumar.webp",
+      img: `${BASE_PATH}faculty/anilkumar.webp`,
     },
     {
       name: "Dr. Thirumagal E",
       username: "Reva University",
       body: "I saw impressive performance in Data Structures and Algorithms; he possesses strong analytical and problem-solving abilities.",
-      img: PUBLIC_BASE_URL + "faculty/thirumagal.webp",
+      img: `${BASE_PATH}faculty/thirumagal.webp`,
     },
     {
       name: "Dr. Bhavatarini N",
       username: "Reva University",
       body: "His dedication to the challenging subject of Deep Learning resulted in sophisticated and well-executed projects.",
-      img: PUBLIC_BASE_URL + "faculty/bhavatarini.webp",
+      img: `${BASE_PATH}faculty/bhavatarini.webp`,
     },
     {
       name: "Dr. Narendra Babu C R",
       username: "Reva University",
       body: "He produced high-quality, fully functional applications in my mobile application development module.",
-      img: PUBLIC_BASE_URL + "faculty/narendra.png",
+      img: `${BASE_PATH}faculty/narendra.png`,
     },
     {
       name: "Dr. Hemashree L",
       username: "Reva University",
       body: "As a final year project guide, I can attest to his exceptional commitment and technical skill in seeing his major work through to completion.",
-      img: PUBLIC_BASE_URL + "faculty/hemashree.jpg",
+      img: `${BASE_PATH}faculty/hemashree.jpg`,
     },
     {
       name: "Dr. Ashwinkumar U M",
       username: "CSE Director @Reva University",
       body: "He is recognized within the School of CSE for his proactive attitude and strong academic achievements.",
-      img: PUBLIC_BASE_URL + "faculty/ashwinkumar.webp",
+      img: `${BASE_PATH}faculty/ashwinkumar.webp`,
     },
     {
       name: "Dr. P V Bhaskar Reddy",
       username: "Reva University",
       body: "An intellectually curious and capable student whose research potential is very promising.",
-      img: PUBLIC_BASE_URL + "faculty/bhaskar.webp",
+      img: `${BASE_PATH}faculty/bhaskar.webp`,
     },
   ];
