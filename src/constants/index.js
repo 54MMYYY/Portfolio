@@ -12,27 +12,27 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: `${BASE_PATH}assets/projects/accessories.jpg`,
+      image: ``,
       tags: [
         {
           id: 1,
           name: "OCR",
-          path: `${BASE_PATH}assets/logos/csharp.svg`,
+          path: ``,
         },
         {
           id: 2,
           name: "NLP",
-          path: `${BASE_PATH}assets/logos/dotnet.svg`,
+          path: ``,
         },
         {
           id: 3,
           name: "JWT",
-          path: `${BASE_PATH}assets/logos/efcore.png`,
+          path: ``,
         },
         {
           id: 4,
           name: "MERN",
-          path: `${BASE_PATH}assets/logos/tailwindcss.svg`,
+          path: ``,
         },
       ],
     },
@@ -48,22 +48,22 @@ export const myProjects = [
       ],
       href: "",
       logo: "",
-      image: `${BASE_PATH}assets/projects/auth-system.jpg`,
+      image: ``,
       tags: [
         {
           id: 1,
           name: "OpenCV",
-          path: `${BASE_PATH}assets/logos/auth0.svg`,
+          path: ``,
         },
         {
           id: 2,
           name: "Caffe models",
-          path: `${BASE_PATH}assets/logos/react.svg`,
+          path: ``,
         },
         {
           id: 3,
           name: "Python",
-          path: `${BASE_PATH}assets/logos/sqlite.svg`,
+          path: ``,
         },
       ],
     },
@@ -372,17 +372,17 @@ export const myProjects = [
     {
       name: "WhatsApp",
       href: "https://wa.me/971501401675",
-      icon: `${BASE_PATH}/assets/socials/whatsApp.svg`,
+      icon: import.meta.env.DEV ? `${BASE_PATH}assets/socials/whatsApp.svg` : '/Portfolio/assets/socials/whatsApp.svg',
     },
     {
       name: "Linkedin",
       href: "https://www.linkedin.com/in/samsonshajigeorge/",
-      icon: `${BASE_PATH}/assets/socials/linkedIn.svg`,
+      icon: import.meta.env.DEV ? `${BASE_PATH}assets/socials/linkedIn.svg` : '/Portfolio/assets/socials/linkedIn.svg',
     },
     {
       name: "Instagram",
       href: "https://www.instagram.com/54mmyyy/",
-      icon: `${BASE_PATH}/assets/socials/instagram.svg`,
+      icon: import.meta.env.DEV ? `${BASE_PATH}assets/socials/instagram.svg` : '/Portfolio/assets/socials/instagram.svg',
     },
   ];
   
