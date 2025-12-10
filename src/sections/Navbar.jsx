@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className='fixed inset-x-0 z-50 w-full backdrop-blur-lg bg-primary/40'>
         <div className='mx-auto c-space max-w-7xl'>
             <div className='flex items-center justify-between py-2 sm:py-0'>
-                <a href='/'className='text-xl font_bold transition-colors text-neutral-400 hover:text-white'>
+                <a href='https://54mmyyy.github.io/Portfolio/' className='text-xl font_bold transition-colors text-neutral-400 hover:text-white'>
                   Samson  
                 </a>
                 <button onClick={() => setIsOpen(!isOpen)} className='flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden'>
