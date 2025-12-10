@@ -376,7 +376,7 @@ export const myProjects = [
     },
     {
       name: "Linkedin",
-      href: "https://www.linkedin.com/in/samsonshajigeorge/",
+      href: "https://www.linkedin.com/in/samsonshajigeorge55/",
       icon: import.meta.env.DEV ? `${BASE_PATH}assets/socials/linkedIn.svg` : '/Portfolio/assets/socials/linkedIn.svg',
     },
     {
