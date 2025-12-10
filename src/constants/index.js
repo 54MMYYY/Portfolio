@@ -388,6 +388,17 @@ export const myProjects = [
   
   export const experiences = [
     {
+      title: "IT Intern",
+      job: "Al Seer, Dubai, UAE",
+      date: "Nov-Dec 2023",
+      contents: [
+        "Gained practical exposure to diverse security tools and applications, including Fortinet FortiGate (firewall management), Mimecast (email security), SentinelOne (endpoint protection), and MobaXterm/TightVNC for secure remote access and IT support.",
+        "Developed foundational knowledge of physical-level networking (cabling, hardware identification) and assisted with the operation and maintenance of audio-visual systems within corporate meeting rooms.",
+        "Performed data entry and manipulation using Microsoft Excel to support department operations, demonstrating attention to detail and data integrity.",
+        "Acquired minimal introductory exposure to cloud data solutions, specifically SAP Datasphere and SAP Analytics Cloud.",
+      ],
+    },
+    {
       title: "RPA Intern",
       job: "Alpha Data, Dubai, UAE",
       date: "Jul-Aug 2023",
