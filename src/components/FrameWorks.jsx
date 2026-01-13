@@ -2,22 +2,27 @@ import { OrbitingCircles } from "./OrbitingCircles"
 
 export function FrameWorks() {
   const skills = [
-    "auth0",
-    "blazor",
+    "python-5",
+    "java",
     "cplusplus",
-    "csharp",
-    "css3",
-    "dotnet",
-    "dotnetcore",
     "git",
     "html5",
+    "css3",
     "javascript",
-    "microsoft",
     "react",
-    "sqlite",
-    "tailwindcss",
+    "threejs",
     "vitejs",
-    "wordpress",
+    "tailwindcss",
+    "sqlite",
+    "linux",
+    "mimecast",
+    "oracle",
+    "microsoft",
+    "ms-excel",
+    "ms-word",
+    "ms-powerpoint",
+    "azure",
+    "uipath",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
@@ -25,7 +30,7 @@ export function FrameWorks() {
         {skills.map((skill, index) => (
         <Icon key={index} src={`assets/logos/${skill}.svg`}/>))}
       </OrbitingCircles>
-      <OrbitingCircles iconSize={25} radius={100} reverse speed={2}>
+      <OrbitingCircles iconSize={20} radius={100} reverse speed={2}>
       {skills.reverse().map((skill, index) => (
         <Icon key={index} src={`assets/logos/${skill}.svg`}/>))}
       </OrbitingCircles>
