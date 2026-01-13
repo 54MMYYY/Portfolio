@@ -10,7 +10,7 @@ export const myProjects = [
         "Implemented a secure JWT authentication system and utilized a large language model (LLM/ChatGPTbased) to derive medical analytics (symptoms, remedies).",
         "Collaborated effectively with a team to ensure adherence to best development practices and projectdeadlines.",
       ],
-      href: "",
+      href: "https://drive.google.com/file/d/1KDivNOOHxbqpYVeOb-txdw8C9sVEUAWh/view?usp=sharing",
       logo: "",
       image: ``,
       tags: [
@@ -63,6 +63,78 @@ export const myProjects = [
         {
           id: 3,
           name: "Python",
+          path: ``,
+        },
+      ],
+    },
+    {
+      id: 3,
+      title: "My Portfolio",
+      description:
+        "Developed an immersive 3D personal portfolio using React.js, Three.js, React‑Three‑Fiber and Drei, rendering interactive 3D models.",
+      subDescription: [
+        "Optimized build performance with Vite, achieving smooth 60 FPS 3D rendering and fast load times across devices.",
+        "Integrated Framer Motion for scroll‑based triggers and state‑driven animations, creating a dynamic UI/UX experience.",
+        "Managed loading and optimization of heavy GLTF/GLB assets and environment lighting to maintain performance.",
+      ],
+      href: "https://54mmyyy.github.io/Portfolio/",
+      logo: "",
+      image: ``,
+      tags: [
+        {
+          id: 1,
+          name: "React.js",
+          path: ``,
+        },
+        {
+          id: 2,
+          name: "Three.js",
+          path: ``,
+        },
+        {
+          id: 3,
+          name: "Framer Motion",
+          path: ``,
+        },
+        {
+          id: 4,
+          name: "Email.js",
+          path: ``,
+        },
+      ],
+    },
+    {
+      id: 4,
+      title: "CryptoLab | Multi-Cipher Encryption Dashboard",
+      description:
+        "Developed a functional interface for AES-256 (Symmetric Encryption), Caesar Cipher, and Base64 encoding using JavaScript and the CryptoJS library",
+      subDescription: [
+        "Engineered a dynamic system for user-defined secret keys and parameterized shifts, ensuring data integrity during the encryption/decryption lifecycle",
+        "Built a responsive, terminal-themed interface using CSS grid/flexbox with restricted UI scaling to maintain layout integrity.",
+        "Leveraged the Clipboard API to provide a safe, permission-based method for users to handle encrypted outputs.",
+      ],
+      href: "https://54mmyyy.github.io/CryptoLab/",
+      logo: "",
+      image: ``,
+      tags: [
+        {
+          id: 1,
+          name: "Encryption/Decryption",
+          path: ``,
+        },
+        {
+          id: 2,
+          name: "Caesar Cipher",
+          path: ``,
+        },
+        {
+          id: 3,
+          name: "AES-256",
+          path: ``,
+        },
+        {
+          id: 3,
+          name: "Base64",
           path: ``,
         },
       ],
