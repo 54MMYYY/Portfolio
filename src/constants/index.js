@@ -12,7 +12,7 @@ export const myProjects = [
       ],
       href: "https://drive.google.com/file/d/1KDivNOOHxbqpYVeOb-txdw8C9sVEUAWh/view?usp=sharing",
       logo: "",
-      image: ``,
+      image: `${BASE_PATH}assets/projects/analytics.png`,
       tags: [
         {
           id: 1,
