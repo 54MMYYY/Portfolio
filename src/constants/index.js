@@ -2,6 +2,42 @@ const BASE_PATH = import.meta.env.DEV ? './' : '';
 export const myProjects = [
     {
       id: 1,
+      title: "Legal Compliance RAG App",
+      description:
+        "Built a full-stack Retrieval-Augmented Generation (RAG) application that allows users to upload legal documents and query them using natural language.",
+      subDescription: [
+        "Engineered a FastAPI backend with ChromaDB for vector storage and Google Gemini for embeddings and response generation.",
+        "Developed an interactive 3D knowledge cluster map using React Three Fiber that visualizes document embeddings in real-time, reflecting uploads and deletions instantly.",
+        "Deployed the decoupled frontend and backend on Render with a responsive UI built in React and Tailwind CSS.",
+      ],
+      href: "https://legal-compliance-frontend.onrender.com/",
+      logo: "",
+      image: `${BASE_PATH}assets/projects/legal-RAG.png`,
+      tags: [
+        {
+          id: 1,
+          name: "React.js",
+          path: `${BASE_PATH}assets/logos/react.svg`,
+        },
+        {
+          id: 2,
+          name: "Three.js",
+          path: `${BASE_PATH}assets/logos/threejs.svg`,
+        },
+        {
+          id: 3,
+          name: "Gemini",
+          path: `${BASE_PATH}assets/logos/gemini-color.svg`,
+        },
+        {
+          id: 4,
+          name: "Langchain",
+          path: `${BASE_PATH}assets/logos/langchain.svg`,
+        },
+      ],
+    },
+    {
+      id: 2,
       title: "Analytics of Scanned Prescription and Notes",
       description:
         "Engineered a full-stack MERN application for prescription analysis, demonstrating proficiency with modern web platforms and technologies.",
@@ -37,7 +73,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Age and Gender Detection using OpenCV",
       description:
         "Developed a real-time computer vision system in Python using OpenCV to determine the age and gender of aperson from a camera feed.",
@@ -68,7 +104,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "My Portfolio",
       description:
         "Developed an immersive 3D personal portfolio using React.js, Three.js, React‑Three‑Fiber and Drei, rendering interactive 3D models.",
@@ -104,7 +140,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "CryptoLab | Multi-Cipher Encryption Dashboard",
       description:
         "Developed a functional interface for AES-256 (Symmetric Encryption), Caesar Cipher, and Base64 encoding using JavaScript and the CryptoJS library",
