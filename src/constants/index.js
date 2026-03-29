@@ -231,6 +231,23 @@ export const myProjects = [
     },
     {
       id: 4,
+      title: "Cisco - Introduction to Cybersecurity",
+      description:
+        "",
+      subDescription: [
+        "",
+        "",
+        "",
+        "",
+      ],
+      href: "https://drive.google.com/file/d/17uIAZa6-fa_sOA5g7z71DvpYPf173t7S/view?usp=sharing",
+      logo: "",
+      image: `${BASE_PATH}assets/certificates/cisco.png`,
+      tags: [
+      ],
+    },
+    {
+      id: 5,
       title: "Data Analytics Using Python, IIT Roorkee | NPTEL",
       description:
         "",
@@ -247,7 +264,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "Digital Engineering | NASSCOM FutureSkills Prime",
       description:
         "",
@@ -264,7 +281,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "AWS For Beginners | Simplilearn",
       description:
         "",
@@ -281,7 +298,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 7,
+      id: 8,
       title: "Introduction to Cloud Computing | Simplilearn",
       description:
         "",
@@ -298,7 +315,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 8,
+      id: 9,
       title: "Big Data Hadoop and Spark Developer Training | Simplilearn",
       description:
         "",
@@ -315,7 +332,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 9,
+      id: 10,
       title: "Data Structures Using C | 10Seconds , Reva University",
       description:
         "",
