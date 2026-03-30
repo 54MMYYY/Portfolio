@@ -13,7 +13,7 @@ export function FrameWorks() {
     "threejs",
     "vitejs",
     "tailwindcss",
-    "sql",
+    "sqlite",
     "linux",
     "mimecast",
     "oracle",
