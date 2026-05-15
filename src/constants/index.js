@@ -9,7 +9,7 @@ export const myProjects = [
         "The system captures live network traffic, identifies ICMP flood attacks by flagging source IPs exceeding a packet threshold, and automatically generates a structured JSON alert.",
         "The alert is forwarded to an Airia AI pipeline which performs threat classification, risk scoring, MITRE ATT&CK mapping, and recommends SOC response actions in real time.",
       ],
-      href: "https://github.com/54mmyyy/Junior-SOC-Analyst-AI-Agent",
+      href: "https://github.com/54MMYYY/soc-analyst-ai-agent",
       logo: "",
       image: `${BASE_PATH}assets/projects/soc-ai-agent.png`,
       tags: [
