@@ -2,6 +2,41 @@ const BASE_PATH = import.meta.env.DEV ? './' : '';
 export const myProjects = [
     {
       id: 1,
+      title: "Junior SOC Analyst AI Agent",
+      description:
+        "Built an automated Junior SOC Analyst AI Agent using Python, tcpdump, tshark, Kali Linux, Ubuntu, and the Airia AI API to detect and analyze suspicious network activity.",
+      subDescription: [
+        "The system captures live network traffic, identifies ICMP flood attacks by flagging source IPs exceeding a packet threshold, and automatically generates a structured JSON alert.",
+        "The alert is forwarded to an Airia AI pipeline which performs threat classification, risk scoring, MITRE ATT&CK mapping, and recommends SOC response actions in real time.",
+      ],
+      href: "https://github.com/54mmyyy/Junior-SOC-Analyst-AI-Agent",
+      logo: "",
+      image: `${BASE_PATH}assets/projects/soc-ai-agent.png`,
+      tags: [
+        {
+          id: 1,
+          name: "tcpdump",
+          path: `${BASE_PATH}assets/logos/tcpdump.svg`,
+        },
+        {
+          id: 2,
+          name: "Python",
+          path: `${BASE_PATH}assets/logos/python-5.svg`,
+        },
+        {
+          id: 3,
+          name: "Linux",
+          path: `${BASE_PATH}assets/logos/linux.svg`,
+        },
+        {
+          id: 4,
+          name: "Airia AI",
+          path: `${BASE_PATH}assets/logos/airia-ai.svg`,
+        },
+      ],
+    },
+    {
+      id: 2,
       title: "Legal Compliance RAG App",
       description:
         "Built a full-stack Retrieval-Augmented Generation (RAG) application that allows users to upload legal documents and query them using natural language.",
@@ -37,7 +72,43 @@ export const myProjects = [
       ],
     },
     {
-      id: 2,
+      id: 3,
+      title: "CryptoLab | Multi-Cipher Encryption Dashboard",
+      description:
+        "Developed a functional interface for AES-256 (Symmetric Encryption), Caesar Cipher, and Base64 encoding using JavaScript and the CryptoJS library",
+      subDescription: [
+        "Engineered a dynamic system for user-defined secret keys and parameterized shifts, ensuring data integrity during the encryption/decryption lifecycle",
+        "Built a responsive, terminal-themed interface using CSS grid/flexbox with restricted UI scaling to maintain layout integrity.",
+        "Leveraged the Clipboard API to provide a safe, permission-based method for users to handle encrypted outputs.",
+      ],
+      href: "https://54mmyyy.github.io/CryptoLab/",
+      logo: "",
+      image: `${BASE_PATH}assets/projects/cryptolab.png`,
+      tags: [
+        {
+          id: 1,
+          name: "Encryption/Decryption",
+          path: `${BASE_PATH}assets/logos/encryption-decryption.svg`,
+        },
+        {
+          id: 2,
+          name: "Caesar Cipher",
+          path: `${BASE_PATH}assets/logos/caesar-cipher.svg`,
+        },
+        {
+          id: 3,
+          name: "AES-256",
+          path: `${BASE_PATH}assets/logos/aes.svg`,
+        },
+        {
+          id: 3,
+          name: "Base64",
+          path: `${BASE_PATH}assets/logos/base64.svg`,
+        },
+      ],
+    },
+    {
+      id: 4,
       title: "Analytics of Scanned Prescription and Notes",
       description:
         "Engineered a full-stack MERN application for prescription analysis, demonstrating proficiency with modern web platforms and technologies.",
@@ -73,7 +144,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 3,
+      id: 5,
       title: "Age and Gender Detection using OpenCV",
       description:
         "Developed a real-time computer vision system in Python using OpenCV to determine the age and gender of aperson from a camera feed.",
@@ -104,7 +175,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 4,
+      id: 6,
       title: "My Portfolio",
       description:
         "Developed an immersive 3D personal portfolio using React.js, Three.js, React‑Three‑Fiber and Drei, rendering interactive 3D models.",
@@ -139,48 +210,12 @@ export const myProjects = [
         },
       ],
     },
-    {
-      id: 5,
-      title: "CryptoLab | Multi-Cipher Encryption Dashboard",
-      description:
-        "Developed a functional interface for AES-256 (Symmetric Encryption), Caesar Cipher, and Base64 encoding using JavaScript and the CryptoJS library",
-      subDescription: [
-        "Engineered a dynamic system for user-defined secret keys and parameterized shifts, ensuring data integrity during the encryption/decryption lifecycle",
-        "Built a responsive, terminal-themed interface using CSS grid/flexbox with restricted UI scaling to maintain layout integrity.",
-        "Leveraged the Clipboard API to provide a safe, permission-based method for users to handle encrypted outputs.",
-      ],
-      href: "https://54mmyyy.github.io/CryptoLab/",
-      logo: "",
-      image: `${BASE_PATH}assets/projects/cryptolab.png`,
-      tags: [
-        {
-          id: 1,
-          name: "Encryption/Decryption",
-          path: `${BASE_PATH}assets/logos/encryption-decryption.svg`,
-        },
-        {
-          id: 2,
-          name: "Caesar Cipher",
-          path: `${BASE_PATH}assets/logos/caesar-cipher.svg`,
-        },
-        {
-          id: 3,
-          name: "AES-256",
-          path: `${BASE_PATH}assets/logos/aes.svg`,
-        },
-        {
-          id: 3,
-          name: "Base64",
-          path: `${BASE_PATH}assets/logos/base64.svg`,
-        },
-      ],
-    },
   ];
   
   export const myCertifications = [
     {
       id: 1,
-      title: "Oracle AI Foundations Associate",
+      title: "Google Cybersecurity Certificate, Coursera",
       description:
         "",
       subDescription: [
@@ -189,48 +224,14 @@ export const myProjects = [
         "",
         "",
       ],
-      href: "https://drive.google.com/file/d/1a9DttLnmvWbiJRlwUKy3KZL38z_sPPZ3/view?usp=sharing",
+      href: "https://drive.google.com/file/d/17mC6rkc2bbxxMfO8sm-KHO66NfLm2x7S/view?usp=sharing",
       logo: "",
-      image: `${BASE_PATH}assets/certificates/oracle.png`,
+      image: `${BASE_PATH}assets/certificates/google-cyber.png`,
       tags: [
       ],
     },
     {
       id: 2,
-      title: "Microsoft Certified: Azure Fundamentals (AZ-900), Reva University",
-      description:
-        "",
-      subDescription: [
-        "",
-        "",
-        "",
-        "",
-      ],
-      href: "https://drive.google.com/file/d/1s-Dlosfgh4OglEIb5uWxRLzOBFUmnxlR/view?usp=sharing",
-      logo: "",
-      image: `${BASE_PATH}assets/certificates/az900.png`,
-      tags: [
-      ],
-    },
-    {
-      id: 3,
-      title: "Microsoft Certified: Azure AI Fundamentals (AI-900), Reva University",
-      description:
-        "",
-      subDescription: [
-        "",
-        "",
-        "",
-        "",
-      ],
-      href: "https://drive.google.com/file/d/1swcATCG-98H2INGC4s5Zy2zkBrWhP2FT/view?usp=sharing",
-      logo: "",
-      image: `${BASE_PATH}assets/certificates/ai900.png`,
-      tags: [
-      ],
-    },
-    {
-      id: 4,
       title: "Cisco - Introduction to Cybersecurity",
       description:
         "",
@@ -247,7 +248,58 @@ export const myProjects = [
       ],
     },
     {
+      id: 3,
+      title: "Oracle AI Foundations Associate",
+      description:
+        "",
+      subDescription: [
+        "",
+        "",
+        "",
+        "",
+      ],
+      href: "https://drive.google.com/file/d/1a9DttLnmvWbiJRlwUKy3KZL38z_sPPZ3/view?usp=sharing",
+      logo: "",
+      image: `${BASE_PATH}assets/certificates/oracle.png`,
+      tags: [
+      ],
+    },
+    {
+      id: 4,
+      title: "Microsoft Certified: Azure Fundamentals (AZ-900), Reva University",
+      description:
+        "",
+      subDescription: [
+        "",
+        "",
+        "",
+        "",
+      ],
+      href: "https://drive.google.com/file/d/1s-Dlosfgh4OglEIb5uWxRLzOBFUmnxlR/view?usp=sharing",
+      logo: "",
+      image: `${BASE_PATH}assets/certificates/az900.png`,
+      tags: [
+      ],
+    },
+    {
       id: 5,
+      title: "Microsoft Certified: Azure AI Fundamentals (AI-900), Reva University",
+      description:
+        "",
+      subDescription: [
+        "",
+        "",
+        "",
+        "",
+      ],
+      href: "https://drive.google.com/file/d/1swcATCG-98H2INGC4s5Zy2zkBrWhP2FT/view?usp=sharing",
+      logo: "",
+      image: `${BASE_PATH}assets/certificates/ai900.png`,
+      tags: [
+      ],
+    },
+    {
+      id: 6,
       title: "Data Analytics Using Python, IIT Roorkee | NPTEL",
       description:
         "",
@@ -264,7 +316,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 6,
+      id: 7,
       title: "Digital Engineering | NASSCOM FutureSkills Prime",
       description:
         "",
@@ -281,7 +333,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 7,
+      id: 8,
       title: "AWS For Beginners | Simplilearn",
       description:
         "",
@@ -298,7 +350,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 8,
+      id: 9,
       title: "Introduction to Cloud Computing | Simplilearn",
       description:
         "",
@@ -315,7 +367,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 9,
+      id: 10,
       title: "Big Data Hadoop and Spark Developer Training | Simplilearn",
       description:
         "",
@@ -332,7 +384,7 @@ export const myProjects = [
       ],
     },
     {
-      id: 10,
+      id: 11,
       title: "Data Structures Using C | 10Seconds , Reva University",
       description:
         "",
